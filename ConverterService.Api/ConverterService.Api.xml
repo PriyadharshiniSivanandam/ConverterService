@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConverterService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ConverterService.Api.Controllers.ConverterController.ConvertDigitToRomanNumeral(System.String)">
+            <summary>
+            Convert the given digit into a roman numeral
+            </summary>
+            <param name="input">The digit that needs to be converted</param>
+            <response code="200">Returns the converted roman numeral</response>
+            <response code="400">If the input is not valid</response>
+        </member>
+        <member name="M:ConverterService.Api.Controllers.ConverterController.ConvertRomanNumeralToDigit(System.String)">
+            <summary>
+            Convert the given roman numeral into a digit
+            </summary>
+            <param name="input">The roman numeral that needs to be converted</param>
+            <response code="200">Returns the converted digit</response>
+            <response code="400">If the input is not valid</response>
+        </member>
+    </members>
+</doc>
